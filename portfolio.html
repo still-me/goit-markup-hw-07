@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <a href="" class="link logo"
+            ><span class="logo-item">Web</span>Studio</a
+          >
+          <ul class="list nav-list">
+            <li class="nav-item">
+              <a href="./index.html" class="link nav-link">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="link current-page nav-link"
+                >Портфолио</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="link nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="list contacts-list">
+          <li class="cnts-item">
+            <a href="mailto:info@devstudio.com" class="link contacts-link">
+              <svg class="letter-icon">
+                <use href="./images/icons/icons.svg#letter"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="cnts-item">
+            <a href="tel:+380961111111" class="link contacts-link">
+              <svg class="smaptphone-icon">
+                <use href="./images/icons/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="portfolio">
+        <div class="container btn-container">
+          <h1 class="visually-hidden">Projects</h1>
+          <ul class="list btn-list">
+            <li class="list-item">
+              <button type="button" class="filter-btn">Все</button>
+            </li>
+            <li class="list-item">
+              <button type="button" class="filter-btn">Веб-сайты</button>
+            </li>
+            <li class="list-item">
+              <button type="button" class="filter-btn">Приложения</button>
+            </li>
+            <li class="list-item">
+              <button type="button" class="filter-btn">Дизайн</button>
+            </li>
+            <li class="list-item">
+              <button type="button" class="filter-btn">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+        <div class="container project-container">
+          <ul class="list project-list">
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img1.jpg"
+                    width="370"
+                    alt="ноутбук с открытой вэб-страницой"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для
+                      цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <h2 class="project-title">Технокряк</h2>
+                  <p class="project-kind">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img2.jpg"
+                    width="370"
+                    alt="Два баскетболиста"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Постер New Orlean vs Golden Star - это не просто картинка,
+                      где изображено два баскетболиста. На самом деле тот что
+                      справка - гопник, который пытается отжать новый мяч. Но
+                      парень слева тоже не промах, мяч ведь известной китайской
+                      фирмы "АБИБАС"
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-text">
+                  <h2 class="project-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p>Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img3.jpg"
+                    width="370"
+                    alt="Логотип с рыбой"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Ресторан Seafood - это одно их самых популярных приложений
+                      на планете. Здесь вы можете заказать на дом : морского
+                      ежа, осьминога, шпроты или просто сибаса.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <h2 class="project-title">Ресторан Seafood</h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img4.jpg"
+                    width="370"
+                    alt="Наушники"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Проект Prime - помогает владельцам бизнеса. Как только вы
+                      скажете например, что Вам нужны новые носки, проэкт Prime
+                      все услышит и вы вскоре увидите рекламу в Instagram
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-text">
+                  <h2 class="project-title">Проект Prime</h2>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img5.jpg"
+                    width="370"
+                    alt="Две коробки"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Проект Boxes - помогает найти все коробки в радиусе 100м,
+                      очень полезное приложение для любителей макулатуры
+                    </p>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <h2 class="project-title">Проект Boxes</h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img6.jpg"
+                    width="370"
+                    alt="Моноблок с открытой веб-страницой"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Inspiration has no Borders - веб портал для людей, которые
+                      ищут вдохновения, например такие как я
+                    </p>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <h2 class="project-title">Inspiration has no Borders</h2>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img7.jpg"
+                    width="370"
+                    alt="Открытый журнал, со статьей"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Limited Edition - женский журнал. В нем можно узнать как
+                      сушить волосы, сидеть и показывать два пальца вместе с
+                      подругой
+                    </p>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <h2 class="project-title">Издание Limited Edition</h2>
+                  <p>Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img8.jpg"
+                    width="370"
+                    alt="Открытый журнал, со статьей"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Проект LAB - в расшифровке Live Arrive Buy
+                    </p>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <h2 class="project-title">Проект LAB</h2>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card">
+              <a href="" class="project-link">
+                <div class="project-img-box">
+                  <img
+                    class="project-img"
+                    src="./images/projects/img9.jpg"
+                    width="370"
+                    alt="Открытый журнал, со статьей"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay-content">
+                      Данное приложение помогает владельцам бизнеса полностью не
+                      угробить его. Например: снижение затрат предприятия на
+                      корпоративный кофе, туалетную бумагу и отмена
+                      корпоративной связи
+                    </p>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <h2 class="project-title">Growing Business</h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div id="contacts" class="container">
+        <div class="adress-logo-box">
+          <a href="" class="link logo"
+            ><span class="logo-item">Web</span>Studio</a
+          >
+          <address class="contacts">
+            <ul class="list">
+              <li class="list-item">
+                <a
+                  href="https://goo.gl/maps/qRCtbatXRMtNsMS67"
+                  target="_blank"
+                  rel="noopener noreferer"
+                  class="link adress"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="list-item">
+                <a href="mailto:info@devstudio.com" class="link contacts-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="list-item">
+                <a href="tel:+380961111111" class="link contacts-link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="join-box">
+          <p class="join">присоединяйтесь</p>
+          <ul class="list social-list">
+            <li class="sl-item">
+              <a
+                href="https://instagram.com"
+                class="link social-link"
+                target="_blank"
+                rel="noopener noreferer"
+                aria-label="Instagram"
+              >
+                <svg class="social-icon">
+                  <use href="./images/icons/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sl-item">
+              <a
+                href="https://twitter.com"
+                class="link social-link"
+                target="blank"
+                rel="noopener noreferer"
+                aria-label="Twitter"
+              >
+                <svg class="social-icon">
+                  <use href="./images/icons/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sl-item">
+              <a
+                href="https://www.facebook.com"
+                class="link social-link"
+                target="blank"
+                rel="noopener noreferer"
+                aria-label="Facebook"
+              >
+                <svg class="social-icon">
+                  <use href="./images/icons/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sl-item">
+              <a
+                href="https://www.linkedin.com"
+                class="link social-link"
+                target="blank"
+                rel="noopener noreferer"
+                aria-label="Linkedin"
+              >
+                <svg class="social-icon">
+                  <use href="./images/icons/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe-box">
+          <p class="join">Подпишитесь на рассылку</p>
+          <form class="subsribe-form">
+            <label for="email"></label>
+            <input
+              type="email"
+              class="subscribe-input"
+              name="email"
+              id="email"
+              autocomplete="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="button subscribe-btn">
+              Подписаться
+              <svg class="send-icon">
+                <use href="./images/icons/icons.svg#send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
