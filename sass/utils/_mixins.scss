@@ -1,0 +1,5 @@
+@mixin icon-property($wdt, $hgt, $fl: inherit) {
+  width: $wdt;
+  height: $hgt;
+  fill: $fl;
+}

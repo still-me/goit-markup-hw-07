@@ -1,0 +1,14 @@
+/* FILTER BUTTONS SECTION */
+
+.btn-container {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.btn-list {
+  @extend %flex-center;
+
+  .list-item:not(:last-child) {
+    margin-right: 8px;
+  }
+}

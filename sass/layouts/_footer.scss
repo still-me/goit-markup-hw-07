@@ -1,0 +1,53 @@
+/* FOOTER */
+
+.footer {
+  background: #2f303a;
+
+  .container {
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.adress-logo-box {
+  width: 231px;
+  margin-right: 70px;
+}
+.adress {
+  color: $white;
+}
+
+.contacts {
+  font-style: inherit;
+
+  .contacts-link {
+    display: inline-flex;
+    font-weight: inherit;
+  }
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.join-box {
+  width: 206px;
+  height: 80px;
+
+  margin-right: 93px;
+}
+
+.join {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: $white;
+}
+
+.subcribe-box {
+  min-width: 570px;
+}
