@@ -591,11 +591,6 @@ p {
 }
 
 /* ADVANTAGES */
-.advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .advantages-list {
   display: flex;
 }
@@ -835,8 +830,7 @@ p {
 }
 
 /* FILTER BUTTONS SECTION */
-.btn-container {
-  padding-top: 94px;
+.btn-list {
   padding-bottom: 50px;
 }
 
@@ -845,14 +839,6 @@ p {
 }
 
 /* PROJECTS */
-.project-container {
-  padding-bottom: 94px;
-}
-
-.projects {
-  padding-bottom: 94px;
-}
-
 .project-list {
   display: flex;
   flex-wrap: wrap;
